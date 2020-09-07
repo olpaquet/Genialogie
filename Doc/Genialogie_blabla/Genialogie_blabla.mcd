@@ -1,0 +1,17 @@
+blablate, 1n Conversation, 11 Message: date, émetteur
+Message: id, sujet, textedumessage
+Efface, 0n Utilisateur, 0n Message: date
+Nouvelle: id, titre, texte, actif
+:
+
+Conversation: id
+Lit, 0n Utilisateur, 0n Message: date
+Utilisateur: id, login, nom, prenom, email, datedenaissance, homme, motdepasse, presel, postsel, cartedecredit, actif
+Publie, 0n Utilisateur, 11 Nouvelle: date
+MessageForum: id, titre, texte, actif
+
+:
+RejointConversation, 0n Utilisateur, 0n Conversation
+Forume, 0n Utilisateur, 1n Theme: date
+Theme: id, nom
+Ecrit, 0n Theme, 11 MessageForum: date

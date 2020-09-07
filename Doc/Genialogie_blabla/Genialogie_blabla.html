@@ -1,0 +1,101 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+  #mld .relation { font-variant: small-caps; font-weight: bold }
+  #mld .primary { text-decoration: underline }
+  #mld .foreign { font-style: oblique }
+  #mld .normal { }
+</style>
+</head>
+<body>
+<div id='mld'>
+<div>
+  <span class='relation'>Message</span> (
+    <span class='primary'>id</span>,
+    <span class='normal'>sujet</span>,
+    <span class='normal'>textedumessage</span>,
+    <span class='foreign'>id.1</span>,
+    <span class='normal'>date</span>,
+    <span class='normal'>émetteur</span>
+  )
+</div>
+<div>
+  <span class='relation'>Efface</span> (
+    <span class='foreign primary'>id</span>,
+    <span class='foreign primary'>id.1</span>,
+    <span class='normal'>date</span>
+  )
+</div>
+<div>
+  <span class='relation'>Nouvelle</span> (
+    <span class='primary'>id</span>,
+    <span class='normal'>titre</span>,
+    <span class='normal'>texte</span>,
+    <span class='normal'>actif</span>,
+    <span class='foreign'>id.1</span>,
+    <span class='normal'>date</span>
+  )
+</div>
+<!--
+<div>
+  <span class='relation'>Conversation</span> (
+    <span class='primary'>id</span>
+  )
+</div>
+-->
+<div>
+  <span class='relation'>Lit</span> (
+    <span class='foreign primary'>id</span>,
+    <span class='foreign primary'>id.1</span>,
+    <span class='normal'>date</span>
+  )
+</div>
+<div>
+  <span class='relation'>Utilisateur</span> (
+    <span class='primary'>id</span>,
+    <span class='normal'>login</span>,
+    <span class='normal'>nom</span>,
+    <span class='normal'>prenom</span>,
+    <span class='normal'>email</span>,
+    <span class='normal'>datedenaissance</span>,
+    <span class='normal'>homme</span>,
+    <span class='normal'>motdepasse</span>,
+    <span class='normal'>presel</span>,
+    <span class='normal'>postsel</span>,
+    <span class='normal'>cartedecredit</span>,
+    <span class='normal'>actif</span>
+  )
+</div>
+<div>
+  <span class='relation'>MessageForum</span> (
+    <span class='primary'>id</span>,
+    <span class='normal'>titre</span>,
+    <span class='normal'>texte</span>,
+    <span class='normal'>actif</span>,
+    <span class='foreign'>id.1</span>,
+    <span class='normal'>date</span>
+  )
+</div>
+<div>
+  <span class='relation'>RejointConversation</span> (
+    <span class='foreign primary'>id</span>,
+    <span class='foreign primary'>id.1</span>
+  )
+</div>
+<div>
+  <span class='relation'>Forume</span> (
+    <span class='foreign primary'>id</span>,
+    <span class='foreign primary'>id.1</span>,
+    <span class='normal'>date</span>
+  )
+</div>
+<div>
+  <span class='relation'>Theme</span> (
+    <span class='primary'>id</span>,
+    <span class='normal'>nom</span>
+  )
+</div>
+</div>
+</body>
+</html>
