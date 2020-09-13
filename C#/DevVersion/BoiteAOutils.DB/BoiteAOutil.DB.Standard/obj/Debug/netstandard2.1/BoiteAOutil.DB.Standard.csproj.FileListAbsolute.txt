@@ -1,0 +1,8 @@
+C:\Users\o.paquet\source\repos\BoiteAOutils.DB\BoiteAOutil.DB.Standard\bin\Debug\netstandard2.1\BoiteAOutil.DB.Standard.deps.json
+C:\Users\o.paquet\source\repos\BoiteAOutils.DB\BoiteAOutil.DB.Standard\bin\Debug\netstandard2.1\BoiteAOutil.DB.Standard.dll
+C:\Users\o.paquet\source\repos\BoiteAOutils.DB\BoiteAOutil.DB.Standard\bin\Debug\netstandard2.1\BoiteAOutil.DB.Standard.pdb
+C:\Users\o.paquet\source\repos\BoiteAOutils.DB\BoiteAOutil.DB.Standard\obj\Debug\netstandard2.1\BoiteAOutil.DB.Standard.csprojAssemblyReference.cache
+C:\Users\o.paquet\source\repos\BoiteAOutils.DB\BoiteAOutil.DB.Standard\obj\Debug\netstandard2.1\BoiteAOutil.DB.Standard.AssemblyInfoInputs.cache
+C:\Users\o.paquet\source\repos\BoiteAOutils.DB\BoiteAOutil.DB.Standard\obj\Debug\netstandard2.1\BoiteAOutil.DB.Standard.AssemblyInfo.cs
+C:\Users\o.paquet\source\repos\BoiteAOutils.DB\BoiteAOutil.DB.Standard\obj\Debug\netstandard2.1\BoiteAOutil.DB.Standard.dll
+C:\Users\o.paquet\source\repos\BoiteAOutils.DB\BoiteAOutil.DB.Standard\obj\Debug\netstandard2.1\BoiteAOutil.DB.Standard.pdb
