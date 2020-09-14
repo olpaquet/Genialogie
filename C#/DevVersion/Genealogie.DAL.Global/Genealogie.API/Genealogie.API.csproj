@@ -108,8 +108,8 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Autentification\AutentificationDeBase.cs" />
     <Compile Include="Autentification\ResultatAvecDefi.cs" />
-    <Compile Include="Controllers\Controllers\RoleController.cs" />
-    <Compile Include="Controllers\Controllers\UtilisateurController.cs" />
+    <Compile Include="Controllers\RoleController.cs" />
+    <Compile Include="Controllers\UtilisateurController.cs" />
     <Compile Include="Conversion\Mapper.cs" />
     <Compile Include="Formattage\BrowserJsonFormatter.cs" />
     <Compile Include="Global.asax.cs">

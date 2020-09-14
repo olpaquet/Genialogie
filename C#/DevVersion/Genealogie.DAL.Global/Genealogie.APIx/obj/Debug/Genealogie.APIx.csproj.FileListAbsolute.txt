@@ -110,3 +110,6 @@ C:\Users\o.paquet\source\repos\Genealogie.DAL.Global\Genealogie.APIx\obj\Debug\G
 C:\Users\o.paquet\source\repos\Genealogie.DAL.Global\Genealogie.APIx\obj\Debug\Genealogie.APIx.csproj.CopyComplete
 C:\Users\o.paquet\source\repos\Genealogie.DAL.Global\Genealogie.APIx\obj\Debug\Genealogie.API.dll
 C:\Users\o.paquet\source\repos\Genealogie.DAL.Global\Genealogie.APIx\obj\Debug\Genealogie.API.pdb
+C:\Users\o.paquet\Documents\GitHub\Genialogie\C#\DevVersion\Genealogie.DAL.Global\Genealogie.APIx\obj\Debug\Genealogie.APIx.csprojAssemblyReference.cache
+C:\Users\o.paquet\Documents\GitHub\Genialogie\C#\DevVersion\Genealogie.DAL.Global\Genealogie.APIx\obj\Debug\Genealogie.API.dll
+C:\Users\o.paquet\Documents\GitHub\Genialogie\C#\DevVersion\Genealogie.DAL.Global\Genealogie.APIx\obj\Debug\Genealogie.API.pdb

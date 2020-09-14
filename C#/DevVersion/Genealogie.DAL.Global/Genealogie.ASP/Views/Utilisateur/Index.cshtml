@@ -47,7 +47,7 @@
             @Html.DisplayFor(modelItem => item.actif)
         </td>
         <td>
-            @Html.ActionLink("Editer", "Editer", new { id = item.id }) |
+            @Html.ActionLink("Modifier", "Modifier", new { id = item.id }) |
             @Html.ActionLink("Détails", "Details", new { id = item.id }) |
             @Html.ActionLink("Supprimer", "Supprimer", new { id = item.id })
             @if (item.actif)

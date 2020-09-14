@@ -34,7 +34,7 @@ namespace Genealogie.DAL.Global.Repository
             }
             catch (Exception)
             {
-
+                throw;
                 
             }
             return (int)(com.Parametres["id"].Valeur);
@@ -96,22 +96,24 @@ namespace Genealogie.DAL.Global.Repository
             }
             return ll;
         }
-        public int? DonnerParNom(string nom)
+        
+        /*public int? DonnerParNom(string nom)
         {
             if (nom == null) return null;
             Commande com = new Commande($"select nom from ({CONST_UTILISATEUR_REQ} where nom = @nom)");
             com.AjouterParametre("nom", nom);
             return (int?)_connexion.ExecuterScalaire(com);
-        }
+        }*/
 
-        public bool UtilisateurValide(string login, string motdepasse, string[] option = null)
+        public bool ValiderUtilisateur(string login, string motdepasse, string[] options = null)
         {
             if (login == null) return false;
             Commande com = new Commande("select dbo.ControlerUtilisateur(@login,@motdepasse,@option)");
             com.AjouterParametre("login", login);
             com.AjouterParametre("motdepasse", motdepasse);
             com.AjouterParametre("option", "");
-            return (int)_connexion.ExecuterScalaire(com) > 0;
+            int j = (int)_connexion.ExecuterScalaire(com);
+            return j > 0;
             throw new NotImplementedException();
             
         }
@@ -158,7 +160,7 @@ namespace Genealogie.DAL.Global.Repository
             throw new NotImplementedException();
         }
 
-        public Utilisateur DonnerUtilisateur(string login, string motDePasse)
+        public Utilisateur Donner(string login, string motDePasse)
         {
             Commande com = new Commande($"{CONST_UTILISATEUR_REQ} where login = @login and dbo.ConstruireHMotdepasse(@motdepasse, presel,postsel) = motdepasse");
             com.AjouterParametre("login", login);

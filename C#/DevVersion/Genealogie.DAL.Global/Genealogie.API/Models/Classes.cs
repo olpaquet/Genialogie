@@ -17,7 +17,6 @@ namespace Genealogie.API.Models
         public DateTime? dateDeNaissance { get; set; }
         public bool homme { get; set; }
         public string cartedepayement { get; set; }
-        [JsonIgnore]
         public string motDePasse { get; set; }
         /*public string PreSel { get; set; }
         public string PostSel { get; set; }*/

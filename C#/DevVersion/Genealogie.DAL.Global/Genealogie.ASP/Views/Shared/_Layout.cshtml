@@ -21,6 +21,10 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
+                    @if (@HttpContext.Current.Session["utilisateur"] == null)
+                    {<li>@Html.ActionLink("Connexion", "Connexion", "Utilisateur")</li>}
+                    else {<li>@HttpContext.Current.Session["nomaffichage"]</li>
+                          <li>@Html.ActionLink("Déconnexion","Deconnexion","Utilisateur")</li>}
                     <li>@Html.ActionLink("Accueil", "Index", "Home")</li>
                     <li>@Html.ActionLink("À propos de", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>

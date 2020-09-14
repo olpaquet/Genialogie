@@ -48,7 +48,7 @@ namespace Genealogie.API.Autentification
                 string motDePasse = tableauIdentifiant[1];
                 if (login == "") throw new UnauthorizedAccessException();
 
-                Utilisateur utilisateur = new UtilisateurService().DonnerUtilisateur(login, motDePasse).VersAPI();
+                Utilisateur utilisateur = new UtilisateurService().Donner(login, motDePasse).VersAPI();
                                 
                 if (utilisateur==null) throw new UnauthorizedAccessException();
                 //if (!(utilisateur.IsAdmin && this._indice == "Admin")) throw new UnauthorizedAccessException();

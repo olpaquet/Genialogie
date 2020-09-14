@@ -11,3 +11,16 @@ C:\Users\o.paquet\source\repos\Genealogie.DAL.Global\Genealogie.DAL.Global\bin\D
 C:\Users\o.paquet\source\repos\Genealogie.DAL.Global\Genealogie.DAL.Global\bin\Debug\netstandard2.0\BoiteAOutil.Hasard.dll
 C:\Users\o.paquet\source\repos\Genealogie.DAL.Global\Genealogie.DAL.Global\bin\Debug\netstandard2.0\BoiteAOutil.Hasard.pdb
 C:\Users\o.paquet\source\repos\Genealogie.DAL.Global\Genealogie.DAL.Global\obj\Debug\netstandard2.0\Genealogie.DAL.Global.csprojAssemblyReference.cache
+C:\Users\o.paquet\Documents\GitHub\Genialogie\C#\DevVersion\Genealogie.DAL.Global\Genealogie.DAL.Global\bin\Debug\netstandard2.0\Genealogie.DAL.Global.deps.json
+C:\Users\o.paquet\Documents\GitHub\Genialogie\C#\DevVersion\Genealogie.DAL.Global\Genealogie.DAL.Global\bin\Debug\netstandard2.0\Genealogie.DAL.Global.dll
+C:\Users\o.paquet\Documents\GitHub\Genialogie\C#\DevVersion\Genealogie.DAL.Global\Genealogie.DAL.Global\bin\Debug\netstandard2.0\Genealogie.DAL.Global.pdb
+C:\Users\o.paquet\Documents\GitHub\Genialogie\C#\DevVersion\Genealogie.DAL.Global\Genealogie.DAL.Global\bin\Debug\netstandard2.0\BoiteAOutil.DB.Standard.dll
+C:\Users\o.paquet\Documents\GitHub\Genialogie\C#\DevVersion\Genealogie.DAL.Global\Genealogie.DAL.Global\bin\Debug\netstandard2.0\BoiteAOutil.Hasard.dll
+C:\Users\o.paquet\Documents\GitHub\Genialogie\C#\DevVersion\Genealogie.DAL.Global\Genealogie.DAL.Global\bin\Debug\netstandard2.0\BoiteAOutil.DB.Standard.pdb
+C:\Users\o.paquet\Documents\GitHub\Genialogie\C#\DevVersion\Genealogie.DAL.Global\Genealogie.DAL.Global\bin\Debug\netstandard2.0\BoiteAOutil.Hasard.pdb
+C:\Users\o.paquet\Documents\GitHub\Genialogie\C#\DevVersion\Genealogie.DAL.Global\Genealogie.DAL.Global\obj\Debug\netstandard2.0\Genealogie.DAL.Global.AssemblyInfoInputs.cache
+C:\Users\o.paquet\Documents\GitHub\Genialogie\C#\DevVersion\Genealogie.DAL.Global\Genealogie.DAL.Global\obj\Debug\netstandard2.0\Genealogie.DAL.Global.AssemblyInfo.cs
+C:\Users\o.paquet\Documents\GitHub\Genialogie\C#\DevVersion\Genealogie.DAL.Global\Genealogie.DAL.Global\obj\Debug\netstandard2.0\Genealogie.DAL.Global.csproj.CopyComplete
+C:\Users\o.paquet\Documents\GitHub\Genialogie\C#\DevVersion\Genealogie.DAL.Global\Genealogie.DAL.Global\obj\Debug\netstandard2.0\Genealogie.DAL.Global.dll
+C:\Users\o.paquet\Documents\GitHub\Genialogie\C#\DevVersion\Genealogie.DAL.Global\Genealogie.DAL.Global\obj\Debug\netstandard2.0\Genealogie.DAL.Global.pdb
+C:\Users\o.paquet\Documents\GitHub\Genialogie\C#\DevVersion\Genealogie.DAL.Global\Genealogie.DAL.Global\obj\Debug\netstandard2.0\Genealogie.DAL.Global.csprojAssemblyReference.cache

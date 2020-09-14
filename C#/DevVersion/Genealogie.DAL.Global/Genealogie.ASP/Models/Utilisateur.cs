@@ -30,18 +30,15 @@ namespace Genealogie.ASP.Models
                 return null;
             }
         }
-        public int nombreDeRoles
+        public int nombreDeRoles()
         {
-            get { return 0; }
+            return 0;
         }
-        public string nomAffichage { get { return $"{this.prenom.Trim()} {this.nom.Trim()}".Trim(); } }
-        public bool estAdmin
-        {
-            get
-            {
-                UtilisateurServiceAPI usa = new UtilisateurServiceAPI();
-                return usa.EstAdmin(this.id);
-            }
+        public string nomAffichage() { string pr = this.prenom ?? "";  return $"{pr.Trim()} {this.nom.Trim()}".Trim();  }
+        public bool estAdmin()
+        {   
+            UtilisateurServiceAPI usa = new UtilisateurServiceAPI();
+            return usa.EstAdmin(this.id);         
         }
     }
 
@@ -82,6 +79,66 @@ namespace Genealogie.ASP.Models
             id = e.id; login = e.login; nom = e.nom; prenom = e.prenom; email = e.email;
             dateDeNaissance = e.dateDeNaissance; homme = e.homme; cartedepayement = e.cartedepayement;
             actif = e.actif;
+        }                
+    }
+
+    public class UtilisateurConnexion
+    {
+        public string login { get; set; }
+        public string motDePasse { get; set; }        
+    }
+
+    public class UtilisateurEnregistrement
+    {
+        public string login { get; set; }
+        public string nom { get; set; }
+        public string prenom { get; set; }
+        public string email { get; set; }
+        public DateTime? dateDeNaissance { get; set; }
+        public bool homme { get; set; }
+        public string cartedepayement { get; set; }
+        public string motDePasse { get; set; }
+        public string motDePasseConfirmation { get; set; }
+
+    }
+
+    public class UtilisateurCreation
+    {
+        public int id { get; set; }
+        public string login { get; set; }
+        public string nom { get; set; }
+        public string prenom { get; set; }
+        public string email { get; set; }
+        public DateTime? dateDeNaissance { get; set; }
+        public bool homme { get; set; }
+        public string cartedepayement { get; set; }
+        public string motDePasse { get; set; }
+        /*public string PreSel { get; set; }
+        public string PostSel { get; set; }*/
+        
+    }
+
+    public class UtilisateurModification
+    {
+        public string login { get; set; }
+        public string nom { get; set; }
+        public string prenom { get; set; }
+        public string email { get; set; }
+        public DateTime? dateDeNaissance { get; set; }
+        public bool homme { get; set; }
+        public string cartedepayement { get; set; }
+
+        public UtilisateurModification() { }
+        public UtilisateurModification(Utilisateur u) 
+        {
+            this.cartedepayement = u.cartedepayement;
+            this.dateDeNaissance = u.dateDeNaissance;
+            this.email = u.email;
+            this.homme = u.homme;
+            this.prenom = u.prenom;
+            this.login = u.login;
+            this.nom = u.nom;
+            
         }
     }
 

@@ -8,7 +8,7 @@ namespace Genealogie.ASP.Securite
 {
     public static class ConnexionUtilisateur
     {
-        public static string baseUrl { get { return "http://localhost:61297/"; }  }
+        public static string baseUrl { get { return "http://localhost:61297/api/"; }  }
         public static string login { get; private set; }
         public static string motDePasse {  get; private set; }
 
@@ -19,14 +19,15 @@ namespace Genealogie.ASP.Securite
         }
     }
 
-    public static class SessionUtilisateurx
+    public static class SessionUtilisateur
     {
         public static Utilisateur Utilisateur
         {
+            
             get { return (Utilisateur)HttpContext.Current.Session["utilisateur"]; }
             set
             {
-                Utilisateur = value;
+                HttpContext.Current.Session["Utilisateur"] = value;
                 if (value == null)
                 {
                     HttpContext.Current.Session["id"] = null;
@@ -36,7 +37,7 @@ namespace Genealogie.ASP.Securite
                 else
                 {
                     HttpContext.Current.Session["id"] = ((Utilisateur)value).id;
-                    HttpContext.Current.Session["nomaffichage"] = ((Utilisateur)value).nomAffichage;
+                    HttpContext.Current.Session["nomaffichage"] = ((Utilisateur)value).nomAffichage();
                     HttpContext.Current.Session["admin"] = (Utilisateur)value;
                 }
             }
@@ -47,8 +48,9 @@ namespace Genealogie.ASP.Securite
 
         public static void AssignerUtilisateur(Utilisateur u)
         {
-            SessionUtilisateurx.Utilisateur = u;
+            SessionUtilisateur.Utilisateur = u;
         }
+        public static void AssignerUtilisateur() { SessionUtilisateur.Utilisateur = null; }
     }
 
 

@@ -60,9 +60,9 @@ namespace Genealogie.DAL.Client.Services
             throw new NotImplementedException();
         }
 
-        public Utilisateur DonnerUtilisateur(string login, string motDePasse)
+        public Utilisateur Donner(string login, string motDePasse)
         {
-            return _rep.DonnerUtilisateur(login, motDePasse).VersClient();
+            return _rep.Donner(login, motDePasse).VersClient();
             throw new NotImplementedException();
         }
 
@@ -84,9 +84,9 @@ namespace Genealogie.DAL.Client.Services
             throw new NotImplementedException();
         }
 
-        public bool UtilisateurValide(string login, string motdepasse, string[] option = null)
+        public bool ValiderUtilisateur(string login, string motdepasse, string[] option = null)
         {
-            return _rep.UtilisateurValide(login, motdepasse, option); 
+            return _rep.ValiderUtilisateur(login, motdepasse, option); 
             throw new NotImplementedException();
         }
     }

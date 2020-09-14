@@ -1017,11 +1017,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\o.paquet\\source\\repos\\Genealogie.DAL.Global\\Genealogie.DAL.Client\\Genealogie.DAL.Client.csproj",
+      "projectUniqueName": "C:\\Users\\o.paquet\\Documents\\GitHub\\Genialogie\\C#\\DevVersion\\Genealogie.DAL.Global\\Genealogie.DAL.Client\\Genealogie.DAL.Client.csproj",
       "projectName": "Genealogie.DAL.Client",
-      "projectPath": "C:\\Users\\o.paquet\\source\\repos\\Genealogie.DAL.Global\\Genealogie.DAL.Client\\Genealogie.DAL.Client.csproj",
+      "projectPath": "C:\\Users\\o.paquet\\Documents\\GitHub\\Genialogie\\C#\\DevVersion\\Genealogie.DAL.Global\\Genealogie.DAL.Client\\Genealogie.DAL.Client.csproj",
       "packagesPath": "C:\\Users\\o.paquet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\o.paquet\\source\\repos\\Genealogie.DAL.Global\\Genealogie.DAL.Client\\obj\\",
+      "outputPath": "C:\\Users\\o.paquet\\Documents\\GitHub\\Genialogie\\C#\\DevVersion\\Genealogie.DAL.Global\\Genealogie.DAL.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1042,8 +1042,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\o.paquet\\source\\repos\\Genealogie.DAL.Global\\Genealogie.DAL.Global\\Genealogie.DAL.Global.csproj": {
-              "projectPath": "C:\\Users\\o.paquet\\source\\repos\\Genealogie.DAL.Global\\Genealogie.DAL.Global\\Genealogie.DAL.Global.csproj"
+            "C:\\Users\\o.paquet\\Documents\\GitHub\\Genialogie\\C#\\DevVersion\\Genealogie.DAL.Global\\Genealogie.DAL.Global\\Genealogie.DAL.Global.csproj": {
+              "projectPath": "C:\\Users\\o.paquet\\Documents\\GitHub\\Genialogie\\C#\\DevVersion\\Genealogie.DAL.Global\\Genealogie.DAL.Global\\Genealogie.DAL.Global.csproj"
             }
           }
         }

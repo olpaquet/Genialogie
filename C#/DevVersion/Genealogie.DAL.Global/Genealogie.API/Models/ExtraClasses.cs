@@ -17,7 +17,7 @@ namespace Genealogie.API.Models
     {
         public string login { get; set; }
         public string motDePasse { get; set; }
-/*        public string[] option { get; set; }*/
+        public string[] options { get; set; }
     }
 
     public class ObjetDonnerListe
