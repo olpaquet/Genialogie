@@ -1,0 +1,42 @@
+﻿@model Genealogie.ASP.Models.RoleDetails
+
+@{
+    ViewBag.Title = "Détails";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>RoleDetails</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.actif)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.actif)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Modifier", "Modifier", new { id = Model.id }) |
+    @Html.ActionLink("Retour à la liste", "Index")
+</p>

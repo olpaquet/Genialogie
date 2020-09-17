@@ -1,0 +1,95 @@
+﻿@model Genealogie.ASP.Models.UtilisateurDetails
+
+@{
+    ViewBag.Title = "Détails";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>UtilisateurDetails</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.login)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.login)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.prenom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prenom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dateDeNaissance)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dateDeNaissance)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.homme)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.homme)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cartedepayement)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cartedepayement)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.actif)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.actif)
+        </dd>
+
+        <div class="form-group">
+            <label asp-for="roles" class="control-label"></label>
+            @for (int i = 0; i < Model.SLIRoles.Count(); i++)
+            {
+                <br />
+                @Html.DisplayFor(model => model.SLIRoles[i].Selected)
+                <p> </p>
+                @Html.DisplayFor(model => model.SLIRoles[i].Text)
+                <!--<input asp-for="roles[i].Selected" class="form-check-inline" />-->
+
+            }
+        </div>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Modifier", "Modifier", new { id = Model.id }) |
+    @Html.ActionLink("Retour à la liste", "Index")
+</p>

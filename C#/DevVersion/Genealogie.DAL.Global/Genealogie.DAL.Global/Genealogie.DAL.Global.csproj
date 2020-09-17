@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BoiteAOutil.DB.Standard">
+      <HintPath>..\..\BoiteAOutils.DB\BoiteAOutil.DB.Standard\bin\Debug\netstandard2.0\BoiteAOutil.DB.Standard.dll</HintPath>
+    </Reference>
+    <Reference Include="BoiteAOutil.Hasard">
+      <HintPath>..\..\BoiteAOutil.Hasard\BoiteAOutil.Hasard\bin\Debug\netstandard2.0\BoiteAOutil.Hasard.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
