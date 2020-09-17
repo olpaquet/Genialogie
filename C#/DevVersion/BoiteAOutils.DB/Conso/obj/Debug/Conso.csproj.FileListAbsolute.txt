@@ -1,9 +1,0 @@
-C:\Users\o.paquet\source\repos\BoiteAOutils.DB\Conso\obj\Debug\Conso.csprojAssemblyReference.cache
-C:\Users\o.paquet\source\repos\BoiteAOutils.DB\Conso\bin\Debug\Conso.exe.config
-C:\Users\o.paquet\source\repos\BoiteAOutils.DB\Conso\bin\Debug\Conso.exe
-C:\Users\o.paquet\source\repos\BoiteAOutils.DB\Conso\bin\Debug\Conso.pdb
-C:\Users\o.paquet\source\repos\BoiteAOutils.DB\Conso\bin\Debug\BoiteAOutil.DB.Standard.dll
-C:\Users\o.paquet\source\repos\BoiteAOutils.DB\Conso\bin\Debug\BoiteAOutil.DB.Standard.pdb
-C:\Users\o.paquet\source\repos\BoiteAOutils.DB\Conso\obj\Debug\Conso.csproj.CopyComplete
-C:\Users\o.paquet\source\repos\BoiteAOutils.DB\Conso\obj\Debug\Conso.exe
-C:\Users\o.paquet\source\repos\BoiteAOutils.DB\Conso\obj\Debug\Conso.pdb

@@ -1,7 +1,0 @@
-C:\Users\o.paquet\source\repos\BoiteAOutil.Hasard\BoiteAOutil.Hasard\bin\Debug\netstandard2.0\BoiteAOutil.Hasard.deps.json
-C:\Users\o.paquet\source\repos\BoiteAOutil.Hasard\BoiteAOutil.Hasard\bin\Debug\netstandard2.0\BoiteAOutil.Hasard.dll
-C:\Users\o.paquet\source\repos\BoiteAOutil.Hasard\BoiteAOutil.Hasard\bin\Debug\netstandard2.0\BoiteAOutil.Hasard.pdb
-C:\Users\o.paquet\source\repos\BoiteAOutil.Hasard\BoiteAOutil.Hasard\obj\Debug\netstandard2.0\BoiteAOutil.Hasard.AssemblyInfoInputs.cache
-C:\Users\o.paquet\source\repos\BoiteAOutil.Hasard\BoiteAOutil.Hasard\obj\Debug\netstandard2.0\BoiteAOutil.Hasard.AssemblyInfo.cs
-C:\Users\o.paquet\source\repos\BoiteAOutil.Hasard\BoiteAOutil.Hasard\obj\Debug\netstandard2.0\BoiteAOutil.Hasard.dll
-C:\Users\o.paquet\source\repos\BoiteAOutil.Hasard\BoiteAOutil.Hasard\obj\Debug\netstandard2.0\BoiteAOutil.Hasard.pdb

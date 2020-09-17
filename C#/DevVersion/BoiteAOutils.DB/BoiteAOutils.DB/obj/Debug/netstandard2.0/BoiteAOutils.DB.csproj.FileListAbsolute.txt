@@ -1,5 +1,0 @@
-C:\Users\o.paquet\source\repos\BoiteAOutils.DB\BoiteAOutils.DB\bin\Debug\netstandard2.0\BoiteAOutils.DB.deps.json
-C:\Users\o.paquet\source\repos\BoiteAOutils.DB\BoiteAOutils.DB\bin\Debug\netstandard2.0\BoiteAOutils.DB.dll
-C:\Users\o.paquet\source\repos\BoiteAOutils.DB\BoiteAOutils.DB\obj\Debug\netstandard2.0\BoiteAOutils.DB.csprojAssemblyReference.cache
-C:\Users\o.paquet\source\repos\BoiteAOutils.DB\BoiteAOutils.DB\obj\Debug\netstandard2.0\BoiteAOutils.DB.AssemblyInfoInputs.cache
-C:\Users\o.paquet\source\repos\BoiteAOutils.DB\BoiteAOutils.DB\obj\Debug\netstandard2.0\BoiteAOutils.DB.AssemblyInfo.cs
